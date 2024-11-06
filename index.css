@@ -1,0 +1,167 @@
+/* Resetting some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic Styling */
+body {
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  background-color: #1a1a1a;
+}
+
+/* Header Styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.logo:hover {
+  color: #e0e0e0;
+}
+
+.nav a {
+  margin: 0 15px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.nav a:hover {
+  color: #e0e0e0;
+}
+
+/* Button Styling */
+.create-website-btn {
+  background-color: #ffffff;
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px; /* Rounded corners */
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.create-website-btn:hover {
+  background-color: #e0e0e0;
+  transform: translateY(-2px); /* Lift effect */
+}
+
+/* Main Section Styling */
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.main-content {
+  max-width: 800px;
+}
+
+.main h1 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Text shadow for depth */
+}
+
+.start-btn {
+  background-color: #ffffff;
+  color: #000;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px; /* Rounded corners */
+  cursor: pointer;
+  margin-bottom: 40px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.start-btn:hover {
+  background-color: #e0e0e0;
+  transform: translateY(-2px); /* Lift effect */
+}
+
+/* Features Section Styling */
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.features a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 15px; /* Rounded corners */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.features a:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Subtle background on hover */
+  color: #e0e0e0; /* Change text color on hover */
+}
+/* Футер */
+.footer {
+  background-color: #000;
+  color: #ffffff;
+  padding: 20px 40px;
+  text-align: center;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+  color: #b3b3b3;
+}
