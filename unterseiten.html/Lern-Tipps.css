@@ -1,0 +1,65 @@
+/* Загальний чорний фон сторінки */
+body {
+    background-color: #121212; /* темний чорний фон */
+    color: #ffffff; /* білий текст для контрасту */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Заголовок сторінки */
+h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+/* Стиль для списку з порадами */
+ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Стиль для кожного елементу списку */
+li {
+    background-color: #1c1c1c; /* темно-сірий фон для кожного блоку */
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 15px; /* круглі краї */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* тінь для об'єму */
+}
+
+/* Заголовки порад */
+h2 {
+    color: #e0e0e0; /* трохи світліший текст для заголовків */
+    font-size: 1.4em;
+    margin: 0;
+}
+
+/* Стиль для пояснень та прикладів */
+p {
+    color: #cccccc;
+    margin: 10px 0;
+}
+
+/* Стиль для класу прикладу */
+.example {
+    font-style: italic;
+    color: #bbbbbb;
+}
+
+/* Відступи для мобільних пристроїв */
+@media (max-width: 600px) {
+    li {
+        padding: 15px;
+    }
+    h1 {
+        font-size: 1.8em;
+    }
+    h2 {
+        font-size: 1.2em;
+    }
+}
