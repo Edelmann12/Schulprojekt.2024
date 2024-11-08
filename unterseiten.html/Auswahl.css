@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: white;
+}
+
+.buttons-container {
+    display: flex;
+    gap: 20px;
+}
+
+.button {
+    padding: 20px 40px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: black;
+}
